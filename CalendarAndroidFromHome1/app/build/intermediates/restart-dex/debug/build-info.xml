@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="5788823306453"
+    token="-6860860211704579251" >
+
+    <task
+        name="javac"
+        duration="109" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="4287650207280"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="4434575805420"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/builds/debug/4434575805420/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="4627830809274"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/builds/debug/4627830809274/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="5709645497572"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/builds/debug/5709645497572/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="5788823306453" />
+
+</instant-run>

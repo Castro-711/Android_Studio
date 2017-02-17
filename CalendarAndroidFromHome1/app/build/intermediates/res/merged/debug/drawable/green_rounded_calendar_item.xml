@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="0dp"
+    android:thickness="18dp"
+    android:useLevel="false">
+
+    <!-- this is where we change the colour for the different
+          calendar events, one for symptoms another for reminders etc -->
+    <solid
+        android:color="#33cc33"/>
+
+
+</shape>

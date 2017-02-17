@@ -1,0 +1,7 @@
+#Fri Nov 04 16:53:53 GMT 2016
+base.0=/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_68acd0ba3b95f39e9350cb00b20dc017fea4a435
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b323059df106bb331bae8ce39538811f4edfbf5/classes.dex
+base.1=/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b323059df106bb331bae8ce39538811f4edfbf5
+file.0=/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_68acd0ba3b95f39e9350cb00b20dc017fea4a435/classes.dex

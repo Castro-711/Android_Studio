@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f15c1224a0228155385f04ce2f8160eccd7c0e1d">
+        <dex dex="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b323059df106bb331bae8ce39538811f4edfbf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.1.0_30f7880416eac937f2f76ec38f087e0f936096bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e138a47803835b504870ddb1d618c96f021b4d65">
+        <dex dex="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_68acd0ba3b95f39e9350cb00b20dc017fea4a435/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/castro/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/castro/AndroidStudioProjects/CalendarAndroidFromHome1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_e74f0de141121b01e389c041ab1d7a78ff8f034e/classes.dex" />
+    </item>
+
+</items>

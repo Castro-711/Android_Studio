@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_log_symptom"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.castro.calendarevents.LogSymptom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/background_light"
+        android:text="Log a Symptom"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="time of symptom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/background_light"
+        android:text="What symptom ?"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/symptomWhat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@android:color/background_light"
+        android:text="Where ?"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/symptomWhere" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:id="@+id/cameraButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Log your symptom"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/symptomLogButton"/>
+
+
+</LinearLayout>

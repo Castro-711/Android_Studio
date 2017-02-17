@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidfromhome.calendar"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <!--
+        changed the theme to the above to solve issue with the symptom activity
+        not loading correctly as it extends actionbar and not activity, to keep it
+        as actionbar, change above but I could have also extended activity in the
+        symptom class and that would have sufficed.
+        -->
+
+        <activity
+            android:name=".CalenderActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".symptom.SymptomActivity" />
+        <activity android:name=".Event.TodaysEvents"></activity>
+    </application>
+
+</manifest>
